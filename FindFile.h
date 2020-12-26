@@ -1,3 +1,6 @@
+//QLFY 2020.12
+//!该函数正在被FindFile2取代！
+//FindFile,用于选择与打开文件
 #include<string>
 string FindFile(string file)
 {
