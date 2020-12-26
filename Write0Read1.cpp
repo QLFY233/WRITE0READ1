@@ -3,6 +3,7 @@
 #include"Write0.h"
 #include"Read1.h"
 #include"FindFile.h"
+#include"FindFile2.h"
 using namespace std;
 
 string choose;//主菜单输入选择指令	用string防止用户输入奇怪的东西然后程序爆炸
@@ -35,7 +36,7 @@ int main()
 		}
 		else if(choose=="2")
 		{
-			file=FindFile(file);
+			file=FindFile2(file);
 		}
 		else
 		{
